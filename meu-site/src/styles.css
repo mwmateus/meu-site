@@ -1,0 +1,107 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1a237e;
+}
+
+.header h1 {
+  color: #1a237e;
+  margin: 0 0 15px 0;
+  font-size: 24px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #333;
+}
+
+.content-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1a237e;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+.data-table .number {
+  text-align: right;
+}
+
+.data-table .total-label {
+  text-align: right;
+  font-weight: bold;
+}
+
+.data-table .total {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.document-footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.signature-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.signature-line {
+  text-align: center;
+}
+
+.signature-line p:first-child {
+  margin-bottom: 5px;
+  border-top: 1px solid #000;
+  padding-top: 5px;
+}
+
+.footer-info {
+  text-align: right;
+  color: #666;
+  font-size: 12px;
+}
+
+@media print {
+  .container {
+    box-shadow: none;
+    margin: 0;
+    padding: 20px;
+  }
+}
